@@ -1,5 +1,32 @@
+Variable	Description	Output example
+%{source_branch}	The name of the branch being merged.	my-feature-branch
+%{target_branch}	The name of the branch that the changes are applied to.	main
+%{title}	Title of the merge request.	Fix tests and translations
+%{issues}	String with phrase Closes <issue numbers>. Contains all issues mentioned in the merge request description that match issue closing patterns. Empty if no issues are mentioned.	Closes #465, #190 and #400
+%{description}	Description of the merge request.	Merge request description.
+Can be multiline.
+%{reference}	Reference to the merge request.	group-name/project-name!72359
+%{local_reference}	Local reference to the merge request.	!72359
+%{source_project_id}	ID of the merge request’s source project.	123
+%{first_commit}	Full message of the first commit in merge request diff.	Update README.md
+%{first_multiline_commit}	Full message of the first commit that’s not a merge commit and has more than one line in message body. Merge request title if all commits aren’t multiline.	Update README.md
 
+Improved project description in readme file.
+%{url}	Full URL to the merge request.	https://gitlab.com/gitlab-org/gitlab/-/merge_requests/1
+%{reviewed_by}	Line-separated list of the merge request reviewers, based on users who submit a review via batch comments, in a Reviewed-by Git commit trailer format.	Reviewed-by: Sidney Jones <sjones@example.com>
+Reviewed-by: Zhang Wei <zwei@example.com>
+%{approved_by}	Line-separated list of the merge request approvers in a Approved-by Git commit trailer format.	Approved-by: Sidney Jones <sjones@example.com>
+Approved-by: Zhang Wei <zwei@example.com>
+%{merged_by}	User who merged the merge request.	Alex Garcia <agarcia@example.com>
+%{co_authored_by}	Names and emails of commit authors in a Co-authored-by Git commit trailer format. Limited to authors of 100 most recent commits in merge request.	Co-authored-by: Zane Doe <zdoe@example.com>
+Co-authored-by: Blake Smith <bsmith@example.com>
+%{all_commits}	Messages from all commits in the merge request. Limited to 100 most recent commits. Skips commit bodies exceeding 100 KiB and merge commit messages.	* Feature introduced
 
-Autor: %an <%ae>
-Committer: %cn <%ce>
-Data de commit: %cd
+This commit implements feature
+Changelog:added
+
+* Bug fixed
+
+* Documentation improved
+
+This commit introduced better docs.
