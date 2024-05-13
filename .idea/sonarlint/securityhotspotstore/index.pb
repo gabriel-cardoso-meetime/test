@@ -10,3 +10,7 @@ G.idea/sonarlint/issuestore/3/4/340fd52fa7a774118014df35cbaa9a3e0f50fda0,0/6/06
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+@
+.commit_template,5/5/55bac770de71eb07b6330aa3a9df078ea06c771e
+L
+.git/hooks/pre-commit.sample,8/c/8cd9156cdfaf45713dd3cc78575a18f1b997b3bf
