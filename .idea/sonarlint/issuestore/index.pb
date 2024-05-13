@@ -14,3 +14,7 @@ G.idea/sonarlint/issuestore/3/4/340fd52fa7a774118014df35cbaa9a3e0f50fda0,0/6/06
 .commit_template,5/5/55bac770de71eb07b6330aa3a9df078ea06c771e
 L
 .git/hooks/pre-commit.sample,8/c/8cd9156cdfaf45713dd3cc78575a18f1b997b3bf
+L
+.git/hooks/commit-msg.sample,b/3/b3e4e66c77301551582f4cb645b46c3b2b607a40
+E
+.git/hooks/pre-commit,9/e/9e7938a1b0904b6f52b511b78c7ca2d589bdf58f
