@@ -7,3 +7,6 @@
 Q.idea/sonarlint/securityhotspotstore/3/4/340fd52fa7a774118014df35cbaa9a3e0f50fda0,3/c/3cbd2999c029dedd9bc4c1836dd27a60c05607c0
 w
 G.idea/sonarlint/issuestore/3/4/340fd52fa7a774118014df35cbaa9a3e0f50fda0,0/6/065a8500eaa1efc9f02ce4a112529ad659ee01cb
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
